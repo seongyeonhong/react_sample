@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+dist/
+expo-env.d.ts
+.expo-packager/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+jest-test-results.json
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Native
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+*.bak
+
+# Metro
+.metro-health-check*
+
+# IDE / Editor
+.vscode/
+.idea/
